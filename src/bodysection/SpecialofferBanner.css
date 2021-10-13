@@ -1,33 +1,8 @@
-.p-0 {
-    padding: 0 !important;
+.banner-padding {
+    padding-top: 30px;
 }
 
-.section-t-space,
 section {
-    padding-top: 70px;
-}
-
-article,
-aside,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section {
-    display: block;
-}
-
-*,
-:after,
-:before {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-user agent stylesheet section {
     display: block;
 }
 

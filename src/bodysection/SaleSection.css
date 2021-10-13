@@ -1,10 +1,7 @@
-.banner-furniture {
+.banner {
+    padding-top: 30px;
     padding-left: 15px;
     padding-right: 15px;
-}
-
-.banner-padding {
-    padding-top: 30px;
 }
 
 section {
@@ -15,52 +12,11 @@ section {
     display: block;
 }
 
-.container-fluid {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .row {
     display: flex;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
-}
-
-@media (min-width: 992px) {
-    .col-lg-3 {
-        flex: 0 0 25%;
-        max-width: 25%;
-    }
-}
-
-@media (min-width: 768px) {
-    .col-md-6 {
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-}
-
-.col-lg-3,
-.col-md-6 {
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-a {
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-}
-
-a {
-    color: #007bff;
-    text-decoration: none;
-    background-color: transparent;
 }
 
 .collection-banner {
@@ -123,14 +79,13 @@ img {
     padding-right: 70px;
 }
 
-@media (max-width: 1367px) {
+@media (max-width: 1162px) {
     .collection-banner .contain-banner h4 {
         letter-spacing: 0.01em;
     }
 }
 
 .collection-banner .contain-banner h4 {
-    color: var(--theme-deafult);
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1em;

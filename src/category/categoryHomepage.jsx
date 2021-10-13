@@ -9,20 +9,13 @@ import CategorySale from "./CategorySale";
 class CategoryHomepage extends Component {
   render() {
     return (
-      <body className="light ltr">
-        <div className="__next">
-          <div></div>
-          <div>
-            <div>
-              <Header1 />
-              <Categoryheader2 />
-              <CategoryList />
-              <CategoryShoes />
-              <CategorySale />
-            </div>
-          </div>
-        </div>
-      </body>
+      <div>
+        <Header1 />
+        <Categoryheader2 />
+        <CategoryList />
+        <CategoryShoes />
+        <CategorySale />
+      </div>
     );
   }
 }

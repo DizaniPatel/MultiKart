@@ -99,17 +99,6 @@ img {
     justify-content: center;
 }
 
-a {
-    transition: 0.5s ease;
-    text-decoration: none;
-}
-
-a {
-    color: #007bff;
-    text-decoration: none;
-    background-color: transparent;
-}
-
 @media (max-width: 360px) {
     .category-border div .category-banner .category-box h2 {
         padding: 7px 15px;

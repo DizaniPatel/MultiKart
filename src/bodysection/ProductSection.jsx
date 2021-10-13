@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Container } from "react-bootstrap";
 import { connect } from "react-redux";
 import { getproducts } from "../store/actions/productsAction";
 import "./ProductSection.css";
@@ -12,12 +13,12 @@ class ProductSection extends Component {
 
     return (
       <section class="section-b-space p-t-0 ratio_asos">
-        <div class="container">
+        <Container fluid>
           <div class="game-product grid-products row">
             {products.map((product) => {
               return (
                 <div
-                  class="product-box col-6 col-sm-4 col-lg-3 col-xl-2"
+                  class="product-box col-md-4 col-6 col-sm-4 col-lg-3 "
                   key={product.id}
                 >
                   <div class="img-wrapper">
@@ -50,7 +51,7 @@ class ProductSection extends Component {
               );
             })}
           </div>
-        </div>
+        </Container>
       </section>
     );
   }

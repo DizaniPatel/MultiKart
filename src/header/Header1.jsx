@@ -19,7 +19,14 @@ class Header1 extends Component {
   };
   render() {
     return (
-      <Navbar collapseOnSelect expand="lg" className="navbar ">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        className="navbar "
+        style={{
+          cursor: "pointer",
+        }}
+      >
         <Navbar.Brand href="">
           <div onClick={this.redirectToHome}>
             <img

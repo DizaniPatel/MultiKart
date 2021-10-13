@@ -3,7 +3,7 @@ import "./SpecialofferBanner.css";
 class SpecialofferBanner extends Component {
   render() {
     return (
-      <section class="p-0">
+      <section class="p-0 banner">
         <div class="full-banner parallax text-center p-right parallax-banner28">
           <div class="container">
             <div class="row">
