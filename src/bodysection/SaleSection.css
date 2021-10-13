@@ -1,0 +1,249 @@
+.banner-furniture {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.banner-padding {
+    padding-top: 30px;
+}
+
+section {
+    padding-top: 70px;
+}
+
+section {
+    display: block;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+@media (min-width: 992px) {
+    .col-lg-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.col-lg-3,
+.col-md-6 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+a {
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.collection-banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.collection-banner img {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    width: 100%;
+}
+
+.media {
+    display: flex;
+    align-items: flex-start;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img {
+    border-style: none;
+}
+
+@media (max-width: 1367px) {
+    .collection-banner .contain-banner.banner-4 {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+}
+
+.collection-banner .contain-banner.banner-4 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.collection-banner.p-right .contain-banner {
+    justify-content: flex-end;
+}
+
+.collection-banner .contain-banner {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+@media (max-width: 1367px) {
+    .collection-banner .contain-banner h4 {
+        letter-spacing: 0.01em;
+    }
+}
+
+.collection-banner .contain-banner h4 {
+    color: var(--theme-deafult);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 1;
+}
+
+h4 {
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+@media (max-width: 1367px) {
+    .collection-banner .contain-banner.banner-4 h2 {
+        font-size: 28px;
+    }
+}
+
+.collection-banner .contain-banner.banner-4 h2 {
+    font-size: 28px;
+    letter-spacing: 0.03em;
+    color: #fff;
+    margin-bottom: -6px;
+}
+
+@media (max-width: 1367px) {
+    .collection-banner .contain-banner h2 {
+        font-size: 55px;
+        letter-spacing: 0.01em;
+    }
+}
+
+.collection-banner .contain-banner h2 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #222;
+    letter-spacing: 0.1em;
+    margin-bottom: -6px;
+}
+
+@media (max-width: 1367px) {
+    h2 {
+        font-size: 32px;
+    }
+}
+
+h2 {
+    font-size: 36px;
+    color: #222;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.02em;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.collection-banner.p-left .contain-banner {
+    justify-content: flex-start;
+}
+
+div {
+    display: block;
+}

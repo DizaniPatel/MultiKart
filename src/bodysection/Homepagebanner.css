@@ -1,0 +1,160 @@
+.home.home8 {
+    background-image: url(https://multikart-react.vercel.app//assets/images/home-banner/8.jpg);
+}
+
+.home .slider-contain {
+    height: 60vh;
+}
+
+.home {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 75vh;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.col {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.p-center .slider-contain {
+    justify-content: center;
+}
+
+.slider-contain {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+}
+
+.slider-contain h4 {
+    font-weight: 700;
+    letter-spacing: 0.4em;
+    color: #777;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 1;
+}
+
+h4 {
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.slider-contain h1 {
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: #222;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 60px;
+    color: #222;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.slider-contain .btn-solid {
+    margin-top: 20px;
+}
+
+.btn-solid {
+    padding: 13px 29px;
+    color: #fff !important;
+    letter-spacing: 0.05em;
+    border: 2px solid var(--theme-deafult);
+    background-size: 540px;
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-color: darkslategray;
+}
+
+.btn {
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 0;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    background-color: darkslategray;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    background-color: darkslategray;
+}
