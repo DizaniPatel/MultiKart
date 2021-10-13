@@ -23,7 +23,7 @@ class Jewellery extends Component {
           {jewellerys.map((jewellery) => {
             return (
               <div
-                className="product-box col-md-3 col-6 col-sm-3 col-lg-3"
+                className="product-box col-12 col-sm-6 col-lg-3"
                 style={({ float: "none" }, { margin: "0 auto " })}
                 key={jewellery.id}
               >
@@ -36,7 +36,7 @@ class Jewellery extends Component {
                           alt=" "
                           className="responsive"
                           width="500"
-                          height="800"
+                          height="400"
                         />
                       </div>
                     </a>

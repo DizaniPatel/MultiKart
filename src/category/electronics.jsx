@@ -23,7 +23,7 @@ class Electronics extends Component {
           {electronics.map((electronic) => {
             return (
               <div
-                className="product-box col-md-4 col-6 col-sm-4 col-lg-4  "
+                className="product-box col-12 col-sm-6 col-md-4  "
                 style={({ float: "none" }, { margin: "0 auto " })}
                 key={electronic.id}
               >

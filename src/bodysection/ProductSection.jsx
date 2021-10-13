@@ -18,13 +18,13 @@ class ProductSection extends Component {
             {products.map((product) => {
               return (
                 <div
-                  class="product-box col-md-4 col-6 col-sm-4 col-lg-3 "
+                  class="product-box col-6 col-sm-3 col-md-3 col-xl-2"
                   key={product.id}
                 >
                   <div class="img-wrapper">
                     <div class="front">
                       <a href=" ">
-                        <div class="market-bg">
+                        <div class="market-bg center">
                           <img
                             src={product.image}
                             alt=" "

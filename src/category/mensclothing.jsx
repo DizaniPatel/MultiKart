@@ -22,7 +22,7 @@ class Mensclothing extends Component {
           {mensclothings.map((mensclothing) => {
             return (
               <div
-                className="product-box col-md-3 col-6 col-sm-3 col-lg-3 "
+                className="product-box col-12 col-sm-6 col-lg-3 "
                 style={({ float: "none" }, { margin: "0 auto " })}
                 key={mensclothing.id}
               >
