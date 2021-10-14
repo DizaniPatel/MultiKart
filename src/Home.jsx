@@ -9,6 +9,7 @@ import InstagramPage from "./bodysection/InstagramPage";
 import Header1 from "./header/Header1";
 import "./Home.css";
 import Footer1 from "./Footer/Footer1";
+import Footer2 from "./Footer/Footer2";
 
 class Home extends Component {
   render() {
@@ -29,6 +30,7 @@ class Home extends Component {
 
             <InstagramPage />
             <Footer1 />
+            <Footer2 />
           </div>
         </div>
       </body>

@@ -6,6 +6,7 @@ import "./categoryHomepage.css";
 import CategoryShoes from "./CategoryShoes";
 import CategorySale from "./CategorySale";
 import Footer1 from "../Footer/Footer1";
+import Footer2 from "../Footer/Footer2";
 
 class CategoryHomepage extends Component {
   render() {
@@ -17,6 +18,7 @@ class CategoryHomepage extends Component {
         <CategoryShoes />
         <CategorySale />
         <Footer1 />
+        <Footer2 />
       </div>
     );
   }

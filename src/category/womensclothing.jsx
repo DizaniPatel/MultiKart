@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import { connect } from "react-redux";
 import "../bodysection/ProductSection.css";
 import Footer1 from "../Footer/Footer1";
+import Footer2 from "../Footer/Footer2";
 import Header1 from "../header/Header1";
 import { getWomensclothing } from "../store/actions/productsAction";
 
@@ -74,6 +75,7 @@ class Womensclothing extends Component {
         </div>
         <div className="paddingTop">
           <Footer1 />
+          <Footer2 />
         </div>
       </Container>
     );

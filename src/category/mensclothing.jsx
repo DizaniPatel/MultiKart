@@ -5,6 +5,7 @@ import "../bodysection/ProductSection.css";
 import { getMenclothing } from "../store/actions/productsAction";
 import Header1 from "../header/Header1";
 import Footer1 from "../Footer/Footer1";
+import Footer2 from "../Footer/Footer2";
 
 class Mensclothing extends Component {
   componentDidMount() {
@@ -70,6 +71,7 @@ class Mensclothing extends Component {
         </div>
         <div className="paddingTop">
           <Footer1 />
+          <Footer2 />
         </div>
       </Container>
     );
