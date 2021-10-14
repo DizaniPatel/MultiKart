@@ -8,6 +8,7 @@ import SpecialofferBanner from "./bodysection/SpecialofferBanner";
 import InstagramPage from "./bodysection/InstagramPage";
 import Header1 from "./header/Header1";
 import "./Home.css";
+import Footer1 from "./Footer/Footer1";
 
 class Home extends Component {
   render() {
@@ -27,6 +28,7 @@ class Home extends Component {
             <SpecialofferBanner />
 
             <InstagramPage />
+            <Footer1 />
           </div>
         </div>
       </body>

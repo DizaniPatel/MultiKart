@@ -4,6 +4,7 @@ import { Container } from "react-bootstrap";
 import { connect } from "react-redux";
 import { getElectronics } from "../store/actions/productsAction";
 import Header1 from "../header/Header1";
+import Footer1 from "../Footer/Footer1";
 
 class Electronics extends Component {
   componentDidMount() {
@@ -67,6 +68,9 @@ class Electronics extends Component {
               </div>
             );
           })}
+        </div>
+        <div className="paddingTop">
+          <Footer1 />
         </div>
       </Container>
     );

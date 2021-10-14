@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import "../bodysection/ProductSection.css";
 import { getMenclothing } from "../store/actions/productsAction";
 import Header1 from "../header/Header1";
+import Footer1 from "../Footer/Footer1";
 
 class Mensclothing extends Component {
   componentDidMount() {
@@ -66,6 +67,9 @@ class Mensclothing extends Component {
               </div>
             );
           })}
+        </div>
+        <div className="paddingTop">
+          <Footer1 />
         </div>
       </Container>
     );

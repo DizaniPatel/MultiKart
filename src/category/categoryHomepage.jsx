@@ -5,6 +5,7 @@ import Header1 from "../header/Header1";
 import "./categoryHomepage.css";
 import CategoryShoes from "./CategoryShoes";
 import CategorySale from "./CategorySale";
+import Footer1 from "../Footer/Footer1";
 
 class CategoryHomepage extends Component {
   render() {
@@ -15,6 +16,7 @@ class CategoryHomepage extends Component {
         <CategoryList />
         <CategoryShoes />
         <CategorySale />
+        <Footer1 />
       </div>
     );
   }

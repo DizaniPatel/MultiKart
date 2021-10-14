@@ -4,6 +4,7 @@ import { getJewellerys } from "../store/actions/productsAction";
 import "../bodysection/ProductSection.css";
 import { Container } from "react-bootstrap";
 import Header1 from "../header/Header1";
+import Footer1 from "../Footer/Footer1";
 
 class Jewellery extends Component {
   componentDidMount() {
@@ -66,6 +67,9 @@ class Jewellery extends Component {
               </div>
             );
           })}
+        </div>
+        <div className="paddingTop">
+          <Footer1 />
         </div>
       </Container>
     );

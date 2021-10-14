@@ -265,3 +265,7 @@ h4 {
     margin-right: auto;
     width: 50%;
 }
+
+.paddingTop {
+    padding-top: 30px;
+}
