@@ -23,3 +23,8 @@ export const getwomensclothing = async() => {
     );
     return res;
 };
+
+export const getallproducts = async() => {
+    const res = await axios.get(SERVERURL + "/products");
+    return res;
+};
