@@ -1,10 +1,10 @@
 import axios from "axios";
 import { FETCH_PRODUCTS_REQUEST, FETCH_PRODUCTS_FAILURE } from "../types";
 
-export const fetchProducts = () => {
+export const fetchProducts = (id) => {
     return (dispatch) => {
         axios
-            .get("https://fakestoreapi.com/products")
+            .get("https://fakestoreapi.com/products/" + id)
             .then((response) => {
                 const products = response.data;
                 dispatch(fetchProductsRequest(products));

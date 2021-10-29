@@ -4,7 +4,6 @@ import store from "./store/store";
 import { Provider } from "react-redux";
 import { BrowserRouter as Router } from "react-router-dom";
 import Routes from "./routes";
-import GetAllProducts from "./GetAllProducts";
 
 //import Category from "./category/category";
 
@@ -13,7 +12,7 @@ ReactDOM.render(
     <Provider store={store}>
       {" "}
       <Router>
-        <GetAllProducts />
+        <Routes />
       </Router>{" "}
     </Provider>{" "}
   </React.StrictMode>,
