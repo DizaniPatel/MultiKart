@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./Footer2.css";
+import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import GoogleIcon from "@mui/icons-material/Google";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import WifiIcon from "@mui/icons-material/Wifi";
 
 export class Footer2 extends Component {
   render() {
@@ -13,7 +18,7 @@ export class Footer2 extends Component {
                 <div>
                   <img
                     alt=""
-                    src="https://multikart-react.vercel.app/assets/images/icon/logo/18.png"
+                    src="https://multikart-react.vercel.app/assets/images/icon/logo.png"
                     className="d-inline-block "
                   />
                 </div>
@@ -23,6 +28,13 @@ export class Footer2 extends Component {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam.
                 </p>
+                <div>
+                  <FacebookRoundedIcon sx={{ mr: 2 }} />
+                  <GoogleIcon sx={{ mr: 2 }} />
+                  <TwitterIcon sx={{ mr: 2 }} />
+                  <InstagramIcon sx={{ mr: 2 }} />
+                  <WifiIcon />
+                </div>
               </Col>
 
               <Col md={2} sm={6}>

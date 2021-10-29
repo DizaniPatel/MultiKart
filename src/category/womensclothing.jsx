@@ -81,6 +81,6 @@ class Womensclothing extends Component {
     );
   }
 }
-const mapStateToProps = (state) => ({ womensclothings: state.products });
+const mapStateToProps = (state) => ({ womensclothings: state.product });
 
 export default connect(mapStateToProps, { getWomensclothing })(Womensclothing);

@@ -79,6 +79,6 @@ class Electronics extends Component {
   }
 }
 
-const mapStateToProps = (state) => ({ electronics: state.products });
+const mapStateToProps = (state) => ({ electronics: state.product });
 
 export default connect(mapStateToProps, { getElectronics })(Electronics);

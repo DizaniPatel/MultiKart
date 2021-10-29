@@ -56,6 +56,6 @@ class ProductSection extends Component {
     );
   }
 }
-const mapStateToProps = (state) => ({ products: state.products });
+const mapStateToProps = (state) => ({ products: state.product });
 
 export default connect(mapStateToProps, { getproducts })(ProductSection);

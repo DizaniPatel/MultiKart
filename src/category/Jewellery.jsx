@@ -78,6 +78,6 @@ class Jewellery extends Component {
   }
 }
 
-const mapStateToProps = (state) => ({ jewellerys: state.products });
+const mapStateToProps = (state) => ({ jewellerys: state.product });
 
 export default connect(mapStateToProps, { getJewellerys })(Jewellery);

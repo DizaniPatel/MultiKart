@@ -13,7 +13,7 @@ class CategoryHomepage extends Component {
     return (
       <div>
         <Header1 />
-        <Categoryheader2 />
+        <Categoryheader2 name="ELEMENTS" name2="CATEGORY" />
         <CategoryList />
         <CategoryShoes />
         <CategorySale />

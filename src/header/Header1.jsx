@@ -17,6 +17,11 @@ class Header1 extends Component {
     const { history } = this.props;
     if (history) history.push("/category");
   };
+  redirectToAllProducts = () => {
+    const { history } = this.props;
+    if (history) history.push("/GetAllProducts");
+  };
+
   render() {
     return (
       <Navbar
@@ -31,7 +36,7 @@ class Header1 extends Component {
           <div onClick={this.redirectToHome}>
             <img
               alt=""
-              src="https://multikart-react.vercel.app/assets/images/icon/logo/18.png"
+              src="https://multikart-react.vercel.app/assets/images/icon/logo.png"
               className="d-inline-block "
             />
           </div>
@@ -58,7 +63,9 @@ class Header1 extends Component {
 
             <NavDropdown title="PRODUCTS" id="nav-dropdown">
               <NavDropdown.Item eventKey="4.1">New Demos</NavDropdown.Item>
-              <NavDropdown.Item eventKey="4.2"> Clothing</NavDropdown.Item>
+              <NavDropdown.Item eventKey="4.2">
+                <div onClick={this.redirectToAllProducts}> All Products</div>
+              </NavDropdown.Item>
               <NavDropdown.Item eventKey="4.3">Basics</NavDropdown.Item>
               <NavDropdown.Item eventKey="4.4">Beauty</NavDropdown.Item>
             </NavDropdown>
