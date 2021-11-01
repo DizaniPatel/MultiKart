@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import { Paper } from "@mui/material";
 import { Grid } from "@mui/material";
 import { Link } from "react-router-dom";
+import { Backdrop } from "@mui/material";
+import CircularProgress from "@mui/material/CircularProgress";
 
 const Posts = ({ posts, loading }) => {
+  const [open, setOpen] = useState(true);
   if (loading) {
-    return <h2>Loading...</h2>;
+    return (
+      <div>
+        <Backdrop open={open} onClick={() => setOpen(false)}>
+          <CircularProgress />
+        </Backdrop>
+      </div>
+    );
   }
 
   return (
